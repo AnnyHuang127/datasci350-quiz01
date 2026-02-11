@@ -1,0 +1,35 @@
+(base) annyhuang@MacBook-Air-185 ~ % cd /Users/annyhuang/Desktop/AH/QTM350
+(base) annyhuang@MacBook-Air-185 QTM350 % git clone https://github.com/AnnyHuang127/datasci350-quiz01.git
+(base) annyhuang@MacBook-Air-185 QTM350 % cd datasci350-quiz01
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % touch commands.txt
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git checkout -b feature-update
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git branch
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % mkdir reports
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % ls
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % touch reports/summary.md
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % ls reports
+summary.md
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % echo "This document provides a summary of the project updates." > reports/summary.md
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git add reports
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git status
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git commit -m "Add reports directory with summary.md"
+
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git commit --amend -m "Add reports directory"
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % touch reports/file{1..3}.txt
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % mv data/raw-data.csv data/input-data.csv
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % mkdir scripts/backup && cp scripts/*.py scripts/backup/
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % ls scripts/backup
+
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % rm docs/documentation.md
+
+
+
