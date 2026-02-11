@@ -44,4 +44,11 @@ summary.md
 
 (base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git add .gitignore && git commit -m "Add .gitignore file"
 
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git checkout main
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % rm commands.txt
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git status
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git merge feature-update
 
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git add commands.txt
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git commit -m "Finalize commands log and merge feature branch"
+(base) annyhuang@MacBook-Air-185 datasci350-quiz01 % git push origin main
